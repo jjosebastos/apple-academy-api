@@ -1,7 +1,7 @@
 # ===========================
 # Stage 1: Build
 # ===========================
-FROM maven:3.9.6-eclipse-temurin-17 AS build
+FROM eclipse-temurin:21-jdk-jammy
 
 # Define diretório de trabalho
 WORKDIR /app
